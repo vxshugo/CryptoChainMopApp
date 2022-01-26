@@ -4,10 +4,6 @@ import { Welcome } from "./screens/welcome/index"
 import style from "./screens/welcome/style";
 
 export default function App() {
-  return (
-      <View style={style.container}>
-        <Welcome />
-      </View>
-  )
+  return <Welcome />;
 }
 
