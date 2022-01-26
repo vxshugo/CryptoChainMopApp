@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
 import React from "react";
-import { StyleSheet, Text, View } from 'react-native';
+import { View } from 'react-native';
 import { Welcome } from "./screens/welcome/index"
+import style from "./screens/welcome/style";
 
 export default function App() {
   return (
-      <View>
+      <View style={style.container}>
         <Welcome />
       </View>
   )
