@@ -1,13 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import React from "react";
-import { StyleSheet, Text, View } from 'react-native';
-import { Welcome } from "./screens/welcome/index"
+import { View } from 'react-native';
+import style from "./screens/welcome/style";
+import RootNavigation from "./navigation/RootNavigation"
 
 export default function App() {
-  return (
-      <View>
-        <Welcome />
-      </View>
-  )
+  return <RootNavigation />
 }
 
